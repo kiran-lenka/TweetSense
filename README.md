@@ -1,5 +1,13 @@
-# TweetSense
+# Classifying Twitter data for the COVID-19 pandemic
 
-## Classifying Twitter data for the COVID-19 pandemic
-
-  In a time of crisis, social media tends to be people’s go-to place for sharing information quickly and catering to a wider audience. This generates a significant amount of data, some of which are extremely valuable to be used for relief work. Here, we intend to study the nature of social-media content generated during the ongoing COVID19 pandemic. Coronavirus disease 2019 (COVID-19) is an infectious disease caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). First identified in 2019 in Wuhan, it spread globally, resulting in the World Health Organization (WHO) declaring the outbreak as a Pandemic. As of 9 September 2021, more than 22,24,06,582 cases of COVID-19 have been reported in over 212 countries and territories, resulting in approximately 45,92,934 deaths. During crises such as these, microblogging platforms like Twitter are widely used by affected people to post updates and awareness messages. These crisis-related messages disperse among multiple categories like available facilities, asking for help, warning about a region, information about affected, recovered, injured or dead people, etc. Extracting important situational updates from a plethora of such messages is a difficult yet important task. We aim to excerpt relevant nuggets of information and assign them informational categories using appropriate machine learning techniques.
+  Aim of this project is to classify tweets for the COVID19 pandemic using Machine Learning and Natural Language Processing.
+  
+In a time of crisis, social media such as Twitter tends to be people’s go-to place for sharing information quickly. This generates a significant amount of data, some of which are extremely valuable to be used for relief work. 
+	
+  These messages disperse among multiple categories like available facilities, asking for help, information about affected, recovered, or dead people, etc. Extracting important situational updates from this huge data is a difficult yet important task.
+	
+  Our project automatically classifies these tweets into four main categories as Treatment, Awareness, Reports, and Irrelevant. The classified data will be highly helpful for health organizations and NGOs that are seeking to provide help.
+  
+  The manually annotated dataset is available in the [TweetsDataset.csv](https://github.com/kiran-lenka/TweetSense/blob/main/TweetsDataset.csv) file. And the code of this project is available as a Jupyter Notebook as [TweetSense.ipynb](https://github.com/kiran-lenka/TweetSense/blob/main/TweetSense.ipynb)
+  
+ This project is licensed under the [MIT LICENSE](https://github.com/kiran-lenka/TweetSense/blob/main/LICENSE). 
